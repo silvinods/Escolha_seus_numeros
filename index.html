@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Sena números</title>
+    <link rel="stylesheet" href="SRC/css/styles.css">
+    <link rel="stylesheet" href="SRC/css_media/css.css">
+</head>
+<body>
+    <header class="container_header">
+        <h1>Descubra os números da sua virada de ano!</h1>
+            <h2>Mega da Virada: Prepare-se para um prêmio de R$ 600 milhões!</h2>
+    </header>
+    <main class="container">
+        <form class="form_container">
+            <p>Escolha aqui quantos números deseja (de 6 a 15): lembre-se que o valor da aposta aumenta conforme a quantidade de números escolhidos!.</p>
+            <label for="numero">Números</label>
+            <input type="number" name="number" id="number" min="6" max="15" class="input_num"/>
+           
+            <button type="submit" class="btn_submit btn">Gerar meus números</button>
+        </form>
+       <div class="result">
+        <h2>Seus números são:</h2>
+        <ul id="numeros-gerados" class="numeros">
+            <li id="li"></li>
+        </ul>
+       </div>
+       <div class="bet_value">
+        <label for="valor">Valor em R$:</label>
+        <output id="valor" aria-label="Valor da aposta em reais"></output>
+    </div>
+    </main>
+    <script src="SRC/javascript/script.js"></script>
+</body>
+</html>

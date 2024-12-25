@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/mega_da_virada.webp);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center; 
+    align-items: center;
+    overflow: hidden;
+}
+.container_header > h1, h2{
+font-weight: 200;
+font-size: 1.2em;
+}
+.container_header{
+    width: 100%;
+    text-align: center;
+    padding: 0.9em;
+    color:rgb(53, 52, 50);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(133, 143, 143, 0.97);
+    box-shadow: 0 0 10px black;
+}
+.container{
+    background-color: rgb(133, 143, 143);
+    box-shadow: 1px 1px 9px black;
+    align-items: center;
+    max-width:100%;
+    width: 55em;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 1.7em;
+    margin-top:2em;
+}
+.container p{
+    font-size: 1.2em;
+}
+.form_container{
+    padding: 1.5em;
+}
+.form_container >label{
+    font-size: 1.4em;
+}
+.input_num{
+    width: 10em;
+    padding: 0.5em;
+    font-size: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+.btn_submit{
+    padding: .6em;
+    border-radius: 1em;
+    background-color: rgb(90, 87, 87);
+    color: floralwhite;
+}
+
+.numeros li{
+    border-radius: 1em;
+    padding: 1em;
+   
+    width: 16em;
+    list-style: none;
+    margin: 8px;
+    font-size: 1.5em;
+}
+.result{
+    width: 35em;
+    border-radius: 1em;
+    box-shadow: 1px 2px 8px rgb(88, 85, 85);
+    padding: 1em;
+}
+.bet_value{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    width: 12em;
+    margin-top: 1em;
+    padding: .6em;
+    border-radius: 1em;
+    box-shadow: 1px 1px 2px 1px #c8b5b5;
+background: linear-gradient(-705deg in, transparent 20%, #d3c9c9c2 39%),
+linear-gradient(10deg in, transparent 3%, rgb(67, 67, 72) 20%);
+}
+.bet_value output{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.bet_value:hover{
+    box-shadow: 1px 1px 2px 1px #885050;
+    background-color: brown;
+}
